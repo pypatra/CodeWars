@@ -1,21 +1,21 @@
 # Cara 1
-def even_or_odd(number):
+def even_or_odd(number: int) -> str:
     if number % 2 == 0:
         return "Even"
     return "Odd"
 
 
 # Cara 2
-def even_or_odd(number):
+def even_or_odd(number: int) -> str:
     return "Even" if number % 2 == 0 else "Odd"
 
 
 # Cara 3
-even_or_odd = lambda number: "Even" if number % 2 == 0 else "Odd"
+even_or_odd: str = lambda number: "Even" if number % 2 == 0 else "Odd"
 
 
 # Cara 4
-def even_or_odd(number: int):
+def even_or_odd(number: int) -> str:
     return ["Even", "Odd"][number % 2]
 
 

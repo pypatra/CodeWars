@@ -1,4 +1,4 @@
-def quarter_of(month: int):
+def quarter_of(month: int) -> int:
     if month<=3:
         return 1
     elif month<=6:
